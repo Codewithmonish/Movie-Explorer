@@ -1,0 +1,61 @@
+.addmovie-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #e50914; /* Netflix red */
+}
+
+.addmovie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  background: #222;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.netflix-btn {
+  background: #e50914;
+  padding: 15px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.netflix-btn:hover {
+  background: #b00610;
+}
+

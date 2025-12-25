@@ -1,0 +1,129 @@
+/* Full-page background injected from JSX */
+.netflix-login-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Login box */
+.login-box {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 50px;
+  width: 350px;
+  border-radius: 5px;
+  color: white;
+}
+
+.login-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Red Button */
+.btn-red {
+  width: 100%;
+  padding: 14px;
+  background: #e50914;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.btn-red:hover {
+  background: #b20710;
+}
+
+/* Gray Button */
+.btn-gray {
+  width: 100%;
+  padding: 14px;
+  background: #4b4b4b;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.or-line {
+  text-align: center;
+  margin-top: 15px;
+  color: #aaa;
+}
+
+/* Forgot password */
+.forgot {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+/* Remember me */
+.remember-row {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* Signup section */
+.signup-text {
+  margin-top: 20px;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+
+.signup-text span {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-text span:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
